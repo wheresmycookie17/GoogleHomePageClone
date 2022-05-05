@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 0;
+}
+.header ul{
+    display: flex;
+    align-items: center;
+}
+
+.header ul li{
+    margin: 5px 5px;
+}
+
+.header .sign{
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(81, 81, 251);
+    font-weight: 600;
+    
+
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+   
+}
+
+.center input{
+    padding: 7px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.center button{
+    margin-top: 30  px;
+    padding: 10px;
+    margin: 15px;
+}
+body{
+    height: 100vh;
+    overflow: hidden;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 5px 5px;
+    
+}
+
+.footer h4{
+    font-weight: 100;
+    font-size: small;
+}
+.footer .footer2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.footer .footer2 ul{
+    display: flex;
+    padding: 2px;
+}
+
+.footer .footer2 ul li{
+    margin: 0 10px;
+    color: gray;
+}
